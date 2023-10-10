@@ -22,7 +22,6 @@ main {
 }
 
 .container {
-    border: 2px solid red;
     height: 100vh;
     width: 40vw;
     display: flex;
@@ -32,27 +31,36 @@ main {
 
 } 
 #gptimg {
-    margin-top: -380px;
+    margin-top: 40px;
 
 }
 
 h1 {
-    margin-top: 200px ;
+    margin-top: 90px ;
 
 }
 
 .textfield {
     width: 320px;
     height: 84px;
-    margin-bottom: 20px;
-    border: 1px solid #0FA47F;
-    border-radius: 10px;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+
+label{
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: -15px;
+    color:#0FA47F;
+    
 }
 
 input {
     width: 310px;
-    height: 54px;
-    border: none; 
+    height: 54px; 
+    border: 1px solid #0FA47F;
 }
 
 #contibtn {
@@ -80,5 +88,82 @@ h6 {
 a {
     text-decoration: none;
     color: #0FA47F;
+}
+
+.bottons{
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+
+}
+
+#btngoogle{
+    
+    width: 320px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    margin-bottom: 8px;
+    background-color: white;
+    border: 1px solid #C3C8CF;
+    transition-duration: 0.4s;
+
+}
+
+#google{
+    
+    width: 17.83px;
+    height: 18.33px;
+    margin-left: 20px;
+    margin-right: 5px;
+    
+
+}
+
+#btngoogle:hover{
+    
+    background-color: #C3C8CF;
+}
+
+#btnmicrosoft{
+    
+    width: 320px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    background-color: white;
+    border: 1px solid #C3C8CF;
+    transition-duration: 0.4s;
+}
+
+#microsoft{
+    
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    
+}
+
+#btnmicrosoft:hover{
+    
+    background-color: #C3C8CF;
+}
+
+h6{
+    
+    font-size: 14px;
+    font-weight: 500;
+    padding: 14px;
 }
 
