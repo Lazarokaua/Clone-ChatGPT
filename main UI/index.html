@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ChatGPT</title>
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -12,16 +13,45 @@
 
     <main>
 
-        <div class="container">
+        <div id="left">
+            <button id="btnnewchat"> <img src="assets/plus.svg" alt="" class="icons"> New chat </button>
+            <div id="btnchat"> <img src="assets/message.svg" alt="" class="icons">
+                <h1> Chatbot definition expl </h1> <img src="assets/edit.svg" alt="" class="icons"> <img
+                    src="assets/delete.svg" alt="" class="icons">
+            </div>
+            <div id="space"> </div>
+            <div id="leftfooter">
 
-            <img src="/assets/ChatGPT Logo.svg" alt="">
-            <h1> Welcome to ChatGPT</h1>
-            <h2> Log in with you OpenAI accont to continue </h2>
-            <div class="bottons">
-                <button id="login"> Log in</button>
-                <button id="singup"> Sing up</button>
+                <img src="assets/Line.svg" alt="" id="line">
+                <button class="btnleft"> <img src="assets/delete.svg" alt="" id="delete"> Clear conversation </button>
+                <button class="btnleft"> <img src="assets/contrast.svg" alt="" id="contrast"> Light mode </button>
+                <button class="btnleft"><img src="assets/discord.svg" alt="" id="discord"> OpenAI Discord </button>
+                <button class="btnleft"> <img src="assets/enlarge.svg" alt="" id="enlarge"> Updates & FAQ </button>
+                <button class="btnleft"> <img src="assets/logout.svg" alt="" id="logout"> Log out </button>
             </div>
 
+        </div>
+        <div id="right">
+            <div id="converuser"> <img src="assets/Avatar User.svg" alt="" id="chaticon">
+                <h3> What is a Chatbot? </h3>
+            </div>
+            <div id="converbot"> <img src="assets/Avatar ChatGPT.svg" alt="" id="boticon">
+                <h4> A chatbot is a computer program that simulates human conversation through voice commands or text
+                    chats or both. It can be integrated with various messaging platforms like Facebook Messenger,
+                    WhatsApp, WeChat, etc. and can be used for a variety of purposes, such as customer service,
+                    entertainment, and e-commerce. </h4>
+            </div>
+            <div id="space2"> </div>
+            <div id="bottonstage">
+                <button id="gnrespone"> <img src="assets/refresh.svg" alt="" id="reloadicon"> Regenerate response
+                </button>
+                    <input type="text" id="converinput"> <button id="sender"> <img src="assets/send.svg" alt="" id="send"></button> </input>
+            </div>
+            <footer>
+                <h2 id="foot"> <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" id="chatversionlink"> ChatGPT Jan 9 Version </a> .Free Research Preview. Our goal is
+                    to make AI systems more natural and safe to interact with. Your feedback will help us improve. </h2>
+
+            </footer>
         </div>
 
     </main>

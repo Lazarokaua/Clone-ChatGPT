@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>start</title>
+    <title>ChatGPT</title>
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -12,16 +13,75 @@
 
     <main>
 
-        <div class="container">
+        <div id="left">
+            <button id="btnnewchat"> <img src="assets/plus.svg" alt="" class="icons"> New chat </button>
 
-            <img src="assets/ChatGPT Logo.svg" alt="GPT">
-            <h1> Welcome to ChatGPT</h1>
-            <h2> Log in with you OpenAI accont to continue </h2>
-            <div class="bottons">
-                <button id="login"> Log in</button>
-                <button id="singup"> Sing up </button>
+            <div id="space"> </div>
+            <div id="leftfooter">
+
+                <img src="assets/Line.svg" alt="" id="line">
+                <button class="btnleft"> <img src="assets/contrast.svg" alt="" id="contrast"> Light mode </button>
+                <button class="btnleft"><img src="assets/discord.svg" alt="" id="discord"> OpenAI Discord </button>
+                <button class="btnleft"> <img src="assets/enlarge.svg" alt="" id="enlarge"> Updates & FAQ </button>
+                <button class="btnleft"> <img src="assets/logout.svg" alt="" id="logout"> Log out </button>
             </div>
 
+        </div>
+
+        <div id="right">
+            <div id="card">
+                <h2>ChatGPT</h2>
+                <div id="container">
+                    <div id="ansselect">
+                        <div id="title"> <img src="assets/contrast.svg" alt="" class="mainicon">
+                            <h3> Examples </h3>
+                        </div>
+                        <button class="btnans"> “Explain quantum computing in simple terms” → </button>
+                        <button class="btnans"> “Got any creative ideas for a 10
+                            year old’s birthday?” → </button>
+                        <button class="btnans"> “How do I make an HTTP request in Javascript?” → </button>
+                    </div>
+
+                    <div id="ansselect">
+                        <div id="title"> <img src="assets/Flash.svg" alt="" class="mainicon">
+                            <h3> Capabilities </h3>
+                        </div>
+                        <button class="btnans"> Remembers what user said
+                            earlier in the conversation </button>
+                        <button class="btnans"> Allows user to provide follow-
+                            up corrections </button>
+                        <button class="btnans"> Trained to decline inappropriate
+                            requests </button>
+                    </div>
+
+                    <div id="ansselect">
+                        <div id="title"> <img src="assets/Limitations.svg" alt="" class="mainicon">
+                            <h3> Limitations </h3>
+                        </div>
+                        <button class="btnans"> May occasionally generate
+                            incorrent information </button>
+                        <button class="btnans"> May occasionally produce
+                            harmful instructions or biased
+                            content </button>
+                        <button class="btnans"> Limited knowledge of world and
+                            events after 2021 </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="space2"></div>
+
+            <div id="bottonstage">
+                
+                <input type="text" id="converinput"> <img src="assets/send.svg" alt="" id="send"> </input>
+            </div>
+            <footer>
+                <h2 id="foot"> <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+                        id="chatversionlink"> ChatGPT Jan 9 Version </a> .Free Research Preview. Our goal is
+                    to make AI systems more natural and safe to interact with. Your feedback will help us improve. </h2>
+
+            </footer>
         </div>
 
     </main>

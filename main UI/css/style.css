@@ -2,8 +2,8 @@
 
 
 
-*{
-    margin: 0 ;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
@@ -19,45 +19,239 @@ main {
     background-color: #343541;
 }
 
-.container {
+#left {
+    height: 100vh;
+    width: 40%;
+    background-color: #202123;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+#btnnewchat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #444654;
+    width: 244px;
+    height: 45px;
     color: white;
-    height: 20vh;
-    width: 20vw;
-}
-
-h1 { 
-    font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
-
-h2 {
-    font-size: 15px;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
-
-#login {
-
-    background-color: #0FA47F;
-    height: 38px;
-    width: 66px;
     border-radius: 6px;
+}
+
+#btnchat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #343540;
+    width: 244px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px
+}
+
+h1 {
+    font-size: 11px;
+    font-weight: 100;
+    color: white;
+    margin: 10px;
+}
+
+.icons {
+    width: 15px;
+    margin: 5px;
+}
+
+#space {
+    height: 360px;
+}
+
+#line {
+    margin-left: 13px;
+    width: 230px;
+}
+
+#leftfooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnleft {
+    background-color: transparent;
     border: none;
     color: white;
-    margin-right: 5px;
+    display: flex;
+    font-size: 13.5px;
+    font-weight: 50;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    transition-duration: 0.1s;
 }
 
-#singup{
-    background-color: #0FA47F;
-    height: 38px;
-    width: 66px;
-    border-radius: 6px;
-    border: none;
+.btnleft:hover {
+    background-color: #343541;
+    color: rgb(207, 207, 207);
+}
+
+#delete {
+    width: 18px;
+    margin-right: 10px;
+}
+
+
+#discord {
+    width: 19px;
+    margin-right: 10px;
+}
+
+#contrast {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#enlarge {
+    width: 19px;
+    margin-right: 10px;
+}
+
+#logout {
+
+    width: 19px;
+    margin-right: 10px;
+}
+
+
+#right {
+    height: 100vh;
+    background-color: #343541;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#converuser {
+    width: 100%;
+    background-color: transparent;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3 {
+    margin-left: 40px;
     color: white;
-    margin-left: 5px ;
+    font-size: 15px;
+    font-weight: 50;
+}
+
+#converbot {
+    background-color: #444654;
+    width: 100%;
+    height: 162px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#chaticon {
+    margin-left: 150px;
+}
+
+#boticon {
+    margin-left: 150px;
+    margin-top: -55px;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    margin-left: 40px;
+}
+
+#space2 {
+    height: 280px;
+}
+
+#bottonstage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gnrespone {
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid #444654;
+    color: #C5C5D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#reloadicon {
+    width: 11px;
+    margin-right: 10px;
+
+}
+
+#gnrespone:hover { background-color: #444654;}
+
+input {
+    background-color: #40414E;
+    width: 768px;
+    height: 48px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#sender {position: absolute; 
+margin-left: 720px;
+margin-top: 35px;
+background-color: #343540;
+display: flex;
+align-items: center;
+justify-items: center;
+width: 30px;
+height: 30px;
+transition-duration: 0.1s;
+cursor: pointer;
+}
+
+#sender {background-color: #444654;}
+
+#send {
+    rotate: 90deg;
+    fill:black;
+    margin-left: 6px;
+}
+
+#send:hover {fill: green;}
+
+footer {
+    width: 888px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot {
+    font-size: 12px;
+    font-weight: 100;
+    color: #C5C5D1;
+}
+
+#chatversionlink {
+    color: #C5C5D1;
 }

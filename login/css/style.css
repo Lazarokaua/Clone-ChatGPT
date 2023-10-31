@@ -2,8 +2,8 @@
 
 
 
-*{
-    margin: 0 ;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
@@ -11,7 +11,7 @@
 }
 
 main {
-
+    margin: 0px;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -29,60 +29,65 @@ main {
     align-items: center;
     justify-content: center;
 
-} 
+}
+
 #gptimg {
-    margin-top: 40px;
+    margin-top: px;
 
 }
 
 h1 {
-    margin-top: 90px ;
+    margin-top: 90px;
+    margin-bottom: 36px;
 
 }
 
 .textfield {
+
     width: 320px;
-    height: 84px;
-    margin-bottom: -10px;
-    margin-top: 30px;
+    height: 74px;
+    margin-bottom: 13px;
 }
 
-label{
+label {
     position: absolute;
-    background-color: white;
-    padding: 5px;
     margin-left: 15px;
     margin-top: -15px;
-    color:#0FA47F;
-    
+    background-color: white;
+    padding: 5px;
+    color: #0FA47F;
 }
 
 input {
     width: 310px;
-    height: 54px; 
+    height: 54px;
+    border-radius: 4px;
     border: 1px solid #0FA47F;
+    padding: 20px;
 }
 
 #contibtn {
-    margin-top: 20px;
+    margin-top: 25px;
     width: 320px;
     height: 60px;
     color: white;
     background-color: #0FA47F;
     border: none;
     border-radius: 6px;
-    transition-duration: 0.4s;
+    transition-duration: 0.1s;
     cursor: pointer;
     margin-bottom: 20px;
 }
 
 #contibtn:hover {
- background-color: #00897B;
+    background-color: #00897B;
 }
 
 h6 {
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 13px;
     font-size: 15px;
+    font-weight: 400;
 }
 
 a {
@@ -90,80 +95,79 @@ a {
     color: #0FA47F;
 }
 
-.bottons{
+.bottons {
     flex-direction: column;
     display: flex;
     margin: 20px;
-
 }
 
-#btngoogle{
-    
+#btngoogle {
+    background-color: white;
+    border: 0.5px solid #C3C8CF;
+    border-radius: 6px;
+    width: 320px;
+    height: 60px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+#btnmicrosoft {
+    border: 1px solid #C3C8CF;
+    background-color: transparent;
     width: 320px;
     height: 52px;
-    font-size: 15px;
-    font-weight: 500;
     border-radius: 4px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
     display: flex;
-    margin-bottom: 8px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+#btnapple {
     background-color: white;
-    border: 1px solid #C3C8CF;
-    transition-duration: 0.4s;
-
-}
-
-#google{
-    
-    width: 17.83px;
-    height: 18.33px;
-    margin-left: 20px;
-    margin-right: 5px;
-    
-
-}
-
-#btngoogle:hover{
-    
-    background-color: #C3C8CF;
-}
-
-#btnmicrosoft{
-    
+    border: 0.5px solid #C3C8CF;
+    border-radius: 6px;
     width: 320px;
-    height: 52px;
+    height: 60px;
     font-size: 15px;
-    font-weight: 500;
-    border-radius: 4px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    margin-top: 20px;
     display: flex;
-    background-color: white;
-    border: 1px solid #C3C8CF;
-    transition-duration: 0.4s;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    transition-duration: 0.1s;
+    cursor: pointer;
+
 }
 
-#microsoft{
-    
+
+
+#google {
+
+    margin-left: 17px;
+    margin-right: 17px;
+    width: 17px;
+}
+
+#microsoft {
+    margin-left: 17px;
+    margin-right: 17px;
     width: 20px;
-    height: 20px;
-    margin-left: 20px;
-    margin-right: 5px;
-    
 }
 
-#btnmicrosoft:hover{
-    
-    background-color: #C3C8CF;
+#apple {
+    margin-left: 17px;
+    margin-right: 17px;
+    width: 22px;
 }
 
-h6{
-    
-    font-size: 14px;
-    font-weight: 500;
-    padding: 14px;
-}
-
+#btngoogle:hover {background-color: #dee2e6;}
+#btnmicrosoft:hover {background-color: #dee2e6;}
+#btnapple:hover {background-color: #dee2e6;}

@@ -2,8 +2,8 @@
 
 
 
-*{
-    margin: 0 ;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
@@ -19,53 +19,240 @@ main {
     background-color: #343541;
 }
 
-.container {
+#left {
+    height: 100vh;
+    width: 40%;
+    background-color: #202123;
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: white;
-    height: 20vh;
-    width: 20vw;
 }
 
-h1 { 
-    font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: 400;
+#btnnewchat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #444654;
+    width: 244px;
+    height: 45px;
+    color: white;
+    border-radius: 6px;
 }
+
+h1 {
+    font-size: 11px;
+    font-weight: 100;
+    color: white;
+    margin: 10px;
+}
+
+.icons {
+    width: 15px;
+    margin: 5px;
+}
+
+#space {
+    height: 360px;
+}
+
+#line {
+    margin-left: 13px;
+    width: 230px;
+}
+
+#leftfooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnleft {
+    background-color: transparent;
+    border: none;
+    color: white;
+    display: flex;
+    font-size: 13.5px;
+    font-weight: 50;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    transition-duration: 0.1s;
+}
+
+.btnleft:hover {
+    background-color: #343541;
+    color: rgb(207, 207, 207);
+}
+
+#delete {
+    width: 18px;
+    margin-right: 10px;
+}
+
+
+#discord {
+    width: 19px;
+    margin-right: 10px;
+}
+
+#contrast {
+    width: 20px;
+    margin-right: 10px;
+}
+
+#enlarge {
+    width: 19px;
+    margin-right: 10px;
+}
+
+#logout {
+
+    width: 19px;
+    margin-right: 10px;
+}
+
+
+#right {
+    height: 100vh;
+    background-color: #343541;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+
+#container { 
+    margin-top: 69px;
+    height: 50vh ; 
+    width:80vw ; 
+    display: flex;
+    justify-content: center;
+}
+
+#ansselect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 18px;
+
+}
+
+.mainicon {
+    margin-bottom: 16px;
+    width: 20px;
+
+}
+
+.btnans {
+    padding: 10px;
+    width: 230px;
+    height: 63px;
+    background-color: #444654;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin: 8px;
+    font-size: 13px;
+    transition-duration: 0.1s;
+
+}
+
+.btnans:hover {background-color: #2d2f38;}
 
 h2 {
-    font-size: 15px;
-    margin-bottom: 20px;
-    font-weight: 400;
-}
-
-#login {
-    transition-duration: 0.4s;
-    background-color: #0FA47F;
-    height: 38px;
-    width: 66px;
-    border-radius: 6px;
-    border: none;
+    margin-top: 30px;
     color: white;
-    margin-right: 5px;
-    cursor: pointer;
+    font-size: 34px;
+    font-weight: 200;
 }
 
-#singup{
-    transition-duration: 0.4s;
-    background-color: #0FA47F;
-    height: 38px;
-    width: 66px;
-    border-radius: 6px;
-    border: none;
+h3 {
     color: white;
-    margin-left: 5px;
-    cursor: pointer;
+    font-size: 17px;
+    font-weight: 50;
 }
 
-#login:hover { background-color: #00897B;}
+#space2 {
+    height: 69px;
+}
 
-#singup:hover {background-color: #00897B;}
+#bottonstage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#gnrespone {
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid #444654;
+    color: #C5C5D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#reloadicon {
+    width: 11px;
+    margin-right: 10px;
+
+}
+
+#gnrespone:hover { background-color: #444654;}
+
+input {
+    background-color: #40414E;
+    width: 768px;
+    height: 48px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+#send {
+    position: absolute;
+    rotate: 90deg;
+    margin-top: -10px;
+    margin-left: 720px;
+    
+}
+
+footer {
+    width: 888px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot {
+    font-size: 12px;
+    font-weight: 100;
+    color: #C5C5D1;
+}
+
+#chatversionlink {
+    color: #C5C5D1;
+}
